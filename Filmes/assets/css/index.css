@@ -1,0 +1,113 @@
+:root {
+  --cinza-bem-escuro: #212121;
+  --cinza-escuro: #2c2c2c;
+  --cinza-mediano: #6d6d6d;
+  --azul-claro: #88d6ce;
+  --branco: #e6e6e6;
+  --branco-80: #e6e6e680;
+}
+
+@font-face {
+  font-family: "Chillax";
+  src: url(../fonts/Chillax-Variable.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Chillax", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--cinza-bem-escuro);
+}
+
+header {
+  position: absolute;
+  width: 80%;
+  height: 3.5rem;
+  left: calc(20rem + 2rem + 2rem);
+  top: 5%;
+  display: flex;
+  gap: 3rem;
+}
+
+#filtroDiv {
+  select {
+    appearance: none;
+    background-color: var(--cinza-escuro);
+    background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='12' viewBox='0 0 24 24' width='12' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 1.3rem center;
+    background-size: 15%;
+    color: var(--branco);
+    border: none;
+    height: 100%;
+    width: 15rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 2rem;
+    border-radius: 1.5rem;
+    font-size: 1.6rem;
+    outline: none;
+    
+  }
+}
+
+#search-bar {
+  position: relative;
+  i {
+    position: absolute;
+    font-size: 2.3rem;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 2rem;
+    color: var(--branco);
+  }
+
+  input {
+    background-color: var(--cinza-escuro);
+    border: none;
+    height: 100%;
+    width: 50rem;
+    border-radius: 1.5rem;
+    color: var(--branco80);
+    outline: none;
+    padding-left: 2rem;
+    font-size: 1.6rem;
+    color: var(--branco);
+  }
+
+  &::-webkit-search-decoration,
+  &::-webkit-search-cancel-button,
+  &::-webkit-search-results-button,
+  &::-webkit-search-results-decoration {
+    -webkit-appearance: none;
+    appearance: none;
+  }
+}
+
+#sidebar {
+  position: fixed;
+  background-color: var(--cinza-escuro);
+  width: 20rem;
+  height: 90%;
+  left: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 3rem;
+}
+
+main {
+    background-color: red;
+    width: 84.5%;
+    min-height: 85vh;
+    height: auto;
+    margin-left: 22rem;
+    margin-top: 8rem;
+}
