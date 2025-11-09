@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "local": "Nova York, US",
+    "fotoTopo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX9uNSS-olToTXS9A4k9eGmmqYOcRvw6L5OA&s",
+    "fotoPrincipal": "https://media.staticontent.com/media/pictures/bfb80462-7604-4711-8bfb-576e01508817",
+    "fotoBaixo": "https://forbes.com.br/wp-content/uploads/2019/09/abre_lifestyle_Nova-York_200919_GettyImages.jpg"
+  },
+  {
+    "id": 2,
+    "local": "Dublin, IE",
+    "fotoTopo": "https://upload.wikimedia.org/wikipedia/commons/4/42/Samuel_Beckett_Bridge_At_Sunset_Dublin_Ireland_%2897037639%29_%28cropped%29.jpeg",
+    "fotoPrincipal": "https://dicasdublin.com.br/wp-content/uploads/sites/25/2020/03/dublin-onde-ficar-1-jpg.webp",
+    "fotoBaixo": "https://ecenglish.com/pt/wp-content/uploads/sites/11/2025/01/Dublin-bridge-dusk.jpg"
+  },
+  {
+    "id": 3,
+    "local": "Tokyo, JP",
+    "fotoTopo": "https://img.freepik.com/fotos-gratis/vista-aerea-da-paisagem-urbana-de-toquio-com-a-montanha-fuji-no-japao_335224-148.jpg?semt=ais_hybrid&w=740&q=80",
+    "fotoPrincipal": "https://www.gotokyo.org/en/destinations/southern-tokyo/images/499_0354_2.jpg",
+    "fotoBaixo": "https://media.digitalnomads.world/wp-content/uploads/2021/02/20120635/tokyo-for-digital-nomads.jpg"
+  },
+  {
+    "id": 4,
+    "local": "Zurique, CH (Suiça)",
+    "fotoTopo": "https://images.unsplash.com/photo-1504215680853-026ed2a45def",
+    "fotoPrincipal": "https://images.unsplash.com/photo-1592928308575-8b63d2b2d7e1",
+    "fotoBaixo": "https://images.unsplash.com/photo-1528127269322-539801943592"
+  },
+  {
+    "id": 5,
+    "local": "Paris, FR",
+    "fotoTopo": "https://images.unsplash.com/photo-1508057198894-247b23fe5ade",
+    "fotoPrincipal": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34",
+    "fotoBaixo": "https://images.unsplash.com/photo-1498731407326-3f43f57a121d"
+  },
+  {
+    "id": 6,
+    "local": "Fernando de Noronha, BR",
+    "fotoTopo": "https://images.unsplash.com/photo-1581090700227-1e37b190418e",
+    "fotoPrincipal": "https://images.unsplash.com/photo-1590523277543-438a84b4b9e3",
+    "fotoBaixo": "https://images.unsplash.com/photo-1617634667039-9fa39d51ed2b"
+  },
+  {
+    "id": 7,
+    "local": "Rio de Janeiro, BR",
+    "fotoTopo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d",
+    "fotoPrincipal": "https://images.unsplash.com/photo-1526401485004-2aa6c0393166",
+    "fotoBaixo": "https://images.unsplash.com/photo-1494526585095-c41746248156"
+  }
+]
