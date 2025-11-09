@@ -1,0 +1,56 @@
+{
+  "destaques": [
+    {
+      "id": 119051,
+      "tipo": "tv"
+    },
+    {
+      "id": 157336,
+      "tipo": "movie"
+    },
+    {
+      "id": 299534,
+      "tipo": "movie"
+    },
+    {
+      "id": 38365,
+      "tipo": "movie"
+    },
+    {
+      "id": 76479,
+      "tipo": "tv"
+    }
+  ],
+  "filmes_mais_vistos": [
+    {
+      "id": 872585,
+      "tipo": "movie"
+    },
+    {
+      "id": 157336,
+      "tipo": "movie"
+    },
+    {
+      "id": 299534,
+      "tipo": "movie"
+    },
+    {
+      "id": 381289,
+      "tipo": "movie"
+    },
+    {
+      "id": 324786,
+      "tipo": "movie"
+    },
+    {
+      "id": 1000837,
+      "tipo": "movie"
+    }
+  ],
+  "series_mais_vistas": [
+    {
+      "id": 1399,
+      "tipo": "tv"
+    }
+  ]
+}
