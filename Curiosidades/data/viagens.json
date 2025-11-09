@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "local": "Fortaleza, CE",
+      "fotoTopo": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-fortaleza-capa2019-01-820x430.jpg",
+      "fotoPrincipal": "https://content.skyscnr.com/m/2390bb9236b07038/original/GettyImages-531165953.jpg?resize=1224%3Aauto",
+      "fotoBaixo": "https://seusingressos.com.br/img/fotos/FOR9TUVWX1_medium.jpg"
+    },
+    {
+      "id": 2,
+      "local": "Caldas Novas, GO",
+      "fotoTopo": "https://voenews.com.br/wp-content/uploads/2020/07/Foto-ilustra%C3%A7%C3%A3o-4.jpeg",
+      "fotoPrincipal": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Caldas_Novas.jpg",
+      "fotoBaixo": "https://www.curtamais.com.br/uploads/midias/d9dc9e265722b8f14596e2b8a36cce5a.jpg"
+    },
+    {
+      "id": 3,
+      "local": "Olímpia, SP",
+      "fotoTopo": "https://rotasdeolimpia.com.br/wp-content/uploads/2020/06/guia-de-olimpia.jpg",
+      "fotoPrincipal": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/05/olimpia-capa.jpg",
+      "fotoBaixo": "https://jornaldobelem.com.br/images/noticias/4562/13044009_Tursmo_em_.jpeg.jpeg"
+    },
+    {
+      "id": 4,
+      "local": "Florianópolis, SC",
+      "fotoTopo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPiqcVfTbTrYoi2C36laWxQRkumlwZezdIfg&s",
+      "fotoPrincipal": "https://upload.wikimedia.org/wikipedia/commons/0/09/Morro_da_Cruz%2C_Florianópolis_-_SC%2C_Brazil_-_panoramio_%28cropped%29.jpg",
+      "fotoBaixo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlDI1-IKOsAspc1XHXrZ_KGPKcVRewxPVm0Q&s"
+    }
+  ]
+  
