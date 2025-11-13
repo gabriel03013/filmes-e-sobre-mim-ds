@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,6 +12,8 @@
   </head>
   <body>
     <header>
+      <a href="Curiosidades/index.html" id="curisodades">Sobre Mim</a>
+
       <div id="filtroDiv">
         <select name="selectFiltro" id="filtro">
           <option value="acao">Ação</option>
@@ -23,17 +25,18 @@
       </div>
 
       <div id="search-bar">
-        <label for="inputSearch"
-          ><i class="ri-search-line"></i>
+        <label for="inputSearch">
+          <i class="ri-search-line"></i>
           <input type="search" id="inputSearch" placeholder="Pesquisar" />
         </label>
       </div>
     </header>
-    <div id="sidebar">
+
+    <aside id="sidebar">
       <nav>
         <ul>
           <li>
-            <a href=""><i class="ri-home-4-line"></i>Início</a>
+            <a href="#"><i class="ri-home-4-line"></i>Início</a>
           </li>
           <li>
             <details>
@@ -47,41 +50,81 @@
           </li>
 
           <li>
-            <a href=""><i class="ri-heart-line"></i>Favoritos</a>
+            <a href="#"><i class="ri-heart-line"></i>Favoritos</a>
           </li>
         </ul>
       </nav>
-    </div>
+    </aside>
 
     <main>
       <section id="hero-destaques-section">
         <img src="#" alt="Hero Destaques" class="hero-destaques" />
         <div id="destaque-texto">
-          <div id="destaque-texto-generos">
-            <p></p>
-          </div>
+          <div id="destaque-texto-generos"><p></p></div>
           <h3 id="destaque-texto-h3"></h3>
           <p id="destaque-texto-overview"></p>
           <div>
-            <button><i class="ri-play-fill"></i>Assistir</button>
-            <button>Ver detalhes</button>
+            <a href="" id="assistir-botao"><i class="ri-play-fill"></i>Assistir</a>
+            <a href="" id="detalhes-botao">Ver detalhes</a>
           </div>
         </div>
       </section>
 
-      <section id="filmes-mais-vistos">
-        <h3>| Filmes mais vistos</h3>
-
-        <div id="filmes-mais-vistos-container">
-          <div class="filmes-mais-vistos-card">
-            <!-- <img src="" alt="">
-            <div>
-              <p><i class="ri-heart-fill"></i>   9/10</p>
-              <p>2023</p>
-            </div>
-            <h4>Wandinha</h4> -->
+      <!-- Filmes -->
+      <section class="carrossel-section" id="filmes-mais-vistos">
+        <div class="carrossel-header">
+          <h3>| Filmes Mais Vistos</h3>
+          <div class="carrossel-controles">
+            <button class="carrossel-btn esquerda">
+              <i class="ri-arrow-left-s-line"></i>
+            </button>
+            <button class="carrossel-btn direita">
+              <i class="ri-arrow-right-s-line"></i>
+            </button>
           </div>
         </div>
+        <div
+          class="carrossel-container"
+          id="filmes-mais-vistos-container"
+        ></div>
+      </section>
+
+      <!-- Séries -->
+      <section class="carrossel-section" id="series-mais-vistas">
+        <div class="carrossel-header">
+          <h3>| Séries Mais Vistas</h3>
+          <div class="carrossel-controles">
+            <button class="esquerda">
+              <i class="ri-arrow-left-s-line"></i>
+            </button>
+            <button class="direita">
+              <i class="ri-arrow-right-s-line"></i>
+            </button>
+          </div>
+        </div>
+        <div
+          class="carrossel-container"
+          id="series-mais-vistas-container"
+        ></div>
+      </section>
+
+      <!-- Animes -->
+      <section class="carrossel-section" id="animes-mais-vistos">
+        <div class="carrossel-header">
+          <h3>| Animes Mais Vistos</h3>
+          <div class="carrossel-controles">
+            <button class="esquerda">
+              <i class="ri-arrow-left-s-line"></i>
+            </button>
+            <button class="direita">
+              <i class="ri-arrow-right-s-line"></i>
+            </button>
+          </div>
+        </div>
+        <div
+          class="carrossel-container"
+          id="animes-mais-vistos-container"
+        ></div>
       </section>
     </main>
 
