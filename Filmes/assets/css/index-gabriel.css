@@ -7,12 +7,6 @@
   --azul-claro: #88d6ce;
   --branco: #e6e6e6;
   --branco-80: #e6e6e680;
-  
-}
-
-@font-face {
-  font-family: "Chillax";
-  src: url(../fonts/Chillax-Variable.ttf);
 }
 
 * {
@@ -264,37 +258,27 @@ main {
       display: flex;
       gap: 1.5rem;
 
-      a {
+      button {
         border: none;
         padding: 1rem 2rem;
-        text-decoration: none;
-        font-size: 1.6rem;
-        transition: .3s ease;
 
         &:nth-child(1) {
           background-color: var(--branco);
           color: var(--cinza-bem-escuro);
           font-weight: 500;
+          font-size: 1.6rem;
           border-radius: 3rem;
           display: flex;
           align-items: center;
           justify-content: center;
           gap: 0.5rem;
-          
-
-          &:hover {
-            background-color: #bbb8b8;
-          }
         }
 
         &:nth-child(2) {
           background-color: var(--cinza-escuro);
           border-radius: 2rem;
+          font-size: 1.6rem;
           color: inherit;
-
-          &:hover {
-            background-color: var(--cinza-mediano);
-          }
         }
       }
     }
